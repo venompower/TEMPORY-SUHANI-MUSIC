@@ -11,9 +11,8 @@ from AARVIMUSIC.misc import db
 from AARVIMUSIC.utils.database import add_active_video_chat, is_active_chat
 from AARVIMUSIC.utils.exceptions import AssistantErr
 from AARVIMUSIC.utils.inline import aq_markup, close_markup, stream_markup
-from AARVIMUSIC.utils.stream.queue import put_queue, put_queue_index
 from AARVIMUSIC.utils.pastebin import AARVIBin
-from youtubesearchpython.__future__ import VideosSearch
+from AARVIMUSIC.utils.stream.queue import put_queue, put_queue_index
 from AARVIMUSIC.utils.thumbnails import get_thumb
 
 
@@ -125,9 +124,10 @@ async def stream(
                 car = msg
             carbon = await Carbon.generate(car, randint(100, 10000000))
             upl = close_markup(_)
-            return await app.send_text(
+            return await app.send_photo(
                 original_chat_id,
-                text=_["play_21"].format(position, link),
+                photo=carbon,
+                caption=_["play_21"].format(position, link),
                 reply_markup=upl,
             )
     elif streamtype == "youtube":
@@ -357,7 +357,7 @@ async def stream(
             run = await app.send_photo(
                 original_chat_id,
                 photo=img,
-                text=_["stream_1"].format(
+                caption=_["stream_1"].format(
                     f"https://t.me/{app.username}?start=info_{vidid}",
                     title[:23],
                     duration_min,
@@ -409,22 +409,12 @@ async def stream(
                 forceplay=forceplay,
             )
             button = stream_markup(_, chat_id)
-            run = await app.send_message(
+            run = await app.send_photo(
                 original_chat_id,
-                text=_["stream_2"].format(user_name),
+                photo=config.STREAM_IMG_URL,
+                caption=_["stream_2"].format(user_name),
                 reply_markup=InlineKeyboardMarkup(button),
             )
             db[chat_id][0]["mystic"] = run
             db[chat_id][0]["markup"] = "tg"
             await mystic.delete()
-
-# async def get_thumb(videoid):
-#     try:
-#         # Search for the video using video ID
-#         query = f"https://www.youtube.com/watch?v={videoid}"
-#         results = VideosSearch(query, limit=1)
-#         for result in (await results.next())["result"]:
-#             thumbnail = result["thumbnails"][0]["url"].split("?")[0]
-#         return thumbnail
-#     except Exception as e:
-#         return config.YOUTUBE_IMG_URL
