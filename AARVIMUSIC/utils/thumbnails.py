@@ -148,6 +148,8 @@ async def get_thumb(videoid):
                   circle_position[0] + circle_radius, circle_position[1] + circle_radius], fill="red")
     draw.text((text_x_position, 400), "00:00", (255, 255, 255), font=arial)
     draw.text((1080, 400), duration, (255, 255, 255), font=arial)
+    draw.text((5, 5), f"AARVIMUSIC", fill="white", font=name_font)
+
 
     play_icons = Image.open("AARVIMUSIC/assets/assets/play_icons.png")
     play_icons = play_icons.resize((580, 62))
