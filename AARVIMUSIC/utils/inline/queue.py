@@ -1,3 +1,4 @@
+import config
 from typing import Union
 from AARVIMUSIC import app
 from config import OWNER_ID
