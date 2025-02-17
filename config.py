@@ -105,6 +105,8 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "709e1a2969664491b582008
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 # ------------------------------------------------------------------------------------
 
+CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "5"))    
+
 # ------------------------------------------------------------------------------------
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
@@ -184,4 +186,4 @@ if SUPPORT_CHAT:
 # ----------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------
 
-CLONE_LOGGER = int(getenv("CLONE_LOGGER", -1001969159081))
+CLONE_LOGGER = int(getenv("CLONE_LOGGER", -1001970031336))
