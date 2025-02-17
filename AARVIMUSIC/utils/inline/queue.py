@@ -1,5 +1,6 @@
 from typing import Union
 from AARVIMUSIC import app
+from config import OWNER_ID
 from AARVIMUSIC.utils.formatters import time_to_seconds
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
