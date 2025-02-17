@@ -101,8 +101,8 @@ async def clone_txt(client, message, _):
                 "name": bot.first_name,
                 "token": bot_token,
                 "username": bot.username,
-                "channel": "The_incricible",
-                "support": "zoyu_support",
+                "channel": "Venompratap",
+                "support": "venompratapchat",
                 "premium" : False,
                 "Date" : False,
             }
