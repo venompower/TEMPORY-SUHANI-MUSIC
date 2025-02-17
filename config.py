@@ -39,7 +39,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1001969159081))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 1073815732))
+OWNER_ID = int(getenv("OWNER_ID", 6807476639))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -139,7 +139,7 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/cm1e7m.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/iqs0hw.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/6ew59e.jpg"
