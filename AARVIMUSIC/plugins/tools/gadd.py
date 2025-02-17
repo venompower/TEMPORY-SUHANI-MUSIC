@@ -2,7 +2,7 @@ import asyncio
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-OWNERS = "1073815732"
+OWNERS = "6807476639"
 from AARVIMUSIC import app
 from AARVIMUSIC.utils.database import add_served_chat, get_assistant
 
