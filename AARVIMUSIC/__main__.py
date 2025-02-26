@@ -52,7 +52,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("AARVIMUSIC").info("𝗦𝗧𝗢𝗣 𝗠𝗼𝗼𝗻𝗟𝗶𝗴𝗵𝘁 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("AARVIMUSIC").info("𝗦𝗧𝗢𝗣 𝗔𝗔𝗥𝗩𝗜 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
 
 
 if __name__ == "__main__":
