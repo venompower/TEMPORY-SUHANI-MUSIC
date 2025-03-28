@@ -180,8 +180,8 @@ queue_6 : "<b>❖ ᴅυʀᴧᴛɪση :</b> υηᴋησᴡη ᴅυʀᴧᴛɪση
 queue_7 : "\n❖ ᴄʟɪᴄᴋ ση ʙυᴛᴛση ʙєʟσᴡ ᴛσ ɢєᴛ ᴡʜσʟє ǫυєυєᴅ ʟɪsᴛ."
 queue_8 : "❖ <b>{0} ᴘʟᴧʏєʀ</b>\n\n❖ <b>sᴛʀєᴧϻɪηɢ :</b> {1}\n\n❖ <b>sᴛʀєᴧϻ ᴛʏᴘє :</b> {2}\n❖ <b>ʀєǫυєsᴛєᴅ ʙʏ :</b> {3}\n❖ {4}"
 
-stream_1 : "<blockquote>❖<b> ᴄυᴛє [ᴧᴧʀᴠɪ](https://t.me/Aarvimusicbot) ση sᴛʀєᴧϻɪηɢ ⏤͟͞●</b>\n\n<b>❍ ᴛɪᴛʟє ➥</b> <a href={0}>{1}</a> \n<b>❍ ᴛɪϻє ➥</b> {2} ϻɪηυᴛєs \n<b>❍ ʙʏ ➥</b> {3} \n\n<b>❖ ϻᴧᴅє ʙʏ  ➛ [🍹𝆺𝅥⃝𝙑𝞊𝞰𝞸𝙢 𓆩 𝙎𝞾𝙝𝞪𝞰𝙞](https://t.me/venom_suhani) </blockquote>\n"
-stream_2 : "<blockquote>❖<b> ᴄυᴛє [ᴧᴧʀᴠɪ](https://t.me/Aarvimusicbot) ση sᴛʀєᴧϻɪηɢ ⏤͟͞●</b>\n\n<b>❍ sᴛʀєᴧϻ ᴛʏᴘє ➥</b> ʟɪᴠєsᴛʀєᴧϻ [ υʀʟ ]\n<b>❍ ʙʏ ➥</b> {0}</blockquote>\n"
+stream_1 : "<blockquote>❖<b> ᴄυᴛє [sᴜʜᴀɴɪ](https://t.me/suhani_x_music_bot) ση sᴛʀєᴧϻɪηɢ ⏤͟͞●</b>\n\n<b>❍ ᴛɪᴛʟє ➥</b> <a href={0}>{1}</a> \n<b>❍ ᴛɪϻє ➥</b> {2} ϻɪηυᴛєs \n<b>❍ ʙʏ ➥</b> {3} \n\n<b>❖ ϻᴧᴅє ʙʏ  ➛ [🍹𝆺𝅥⃝𝙑𝞊𝞰𝞸𝙢 𓆩 𝙎𝞾𝙝𝞪𝞰𝙞](https://t.me/venom_suhani) </blockquote>\n"
+stream_2 : "<blockquote>❖<b> ᴄυᴛє [sᴜʜᴀɴɪ](https://t.me/suhani_x_music_bot) ση sᴛʀєᴧϻɪηɢ ⏤͟͞●</b>\n\n<b>❍ sᴛʀєᴧϻ ᴛʏᴘє ➥</b> ʟɪᴠєsᴛʀєᴧϻ [ υʀʟ ]\n<b>❍ ʙʏ ➥</b> {0}</blockquote>\n"
 
 
 CLOSE_BUTTON  : "⦿ ᴄʟσsє ⦿"
@@ -395,4 +395,4 @@ C_P_I_5 : "ғᴀɪʟᴇᴅ ᴛᴏ ᴜᴘᴅᴀᴛᴇ sᴜᴘᴘᴏʀᴛ ᴄʜᴀ
 C_P_I_6 : "ғᴀɪʟᴇᴅ ᴛᴏ ᴜᴘᴅᴀᴛᴇ sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ."
 
 #clone msg from cloned bot
-NO_CLONE_MSG : "ᴛᴏ ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ᴄʟᴏɴᴇ, ᴜsᴇ ᴛʜᴇ ᴏʀɪɢɪɴᴀʟ ʙᴏᴛ @Aarvimusicbot. sɪᴍᴘʟʏ ɢᴏ ᴛʜᴇʀᴇ ᴀɴᴅ sᴛᴀʀᴛ ᴄʟᴏɴɪɴɢ!"
+NO_CLONE_MSG : "ᴛᴏ ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ᴄʟᴏɴᴇ, ᴜsᴇ ᴛʜᴇ ᴏʀɪɢɪɴᴀʟ ʙᴏᴛ @Suhani_X_music_bot. sɪᴍᴘʟʏ ɢᴏ ᴛʜᴇʀᴇ ᴀɴᴅ sᴛᴀʀᴛ ᴄʟᴏɴɪɴɢ!"
