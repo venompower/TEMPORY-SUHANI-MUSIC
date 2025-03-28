@@ -14,11 +14,11 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Vampiree_queen")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Venom_suhani")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "Aarvimusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "suhanimusic")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "Aarvi")
+BOT_NAME = getenv("BOT_NAME" , "Suhani")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME" , "alishaxd")
 # ---------------------------------------------------------
@@ -54,7 +54,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/venompower/AARVI-MUSIC",
+    "https://github.com/venompower/TEMPORY-SUHANI-MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
